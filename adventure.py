@@ -11,8 +11,18 @@ import random
 
 
 #-------------functions-------------------
+hp = 100 # our hitpoints
+dff = 13 # our defense 
 
+en_hp = 100 # enemies hitpoints
+en_dff = 13 # enemies defense
 
 #------------main routine-----------------
-while True: # Making a loop that goes forever
-    letter = str(input('Enter a letter: ')) # Asking the user for a letter
+while(hp > 0 and en_hp > 0): # checking if both are alive 
+    letter = str(input('''
+    Enter your attack: 
+    [s]word 
+    [a]xe 
+    [h]eal
+    ''')) # Asking the user for a letter
+    
