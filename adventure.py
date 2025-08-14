@@ -19,10 +19,15 @@ en_dff = 13 # enemies defense
 
 #------------main routine-----------------
 while(hp > 0 and en_hp > 0): # checking if both are alive 
-    letter = str(input('''
-    Enter your attack: 
-    [s]word 
-    [a]xe 
-    [h]eal
-    ''')) # Asking the user for a letter
-    
+    attack = input('''
+        Enter your attack: 
+        [s]word 
+        [a]xe 
+        [h]eal
+    ''') # Asking the user for a letter
+    if(attack =='s'):
+        pass 
+    elif(attack == 'a'):
+        pass 
+    elif(attack == 'h'):
+        pass 
